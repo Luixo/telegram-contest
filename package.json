@@ -1,0 +1,28 @@
+{
+  "name": "telegram-contest",
+  "version": "0.1.0",
+  "description": "Telegram coding contest",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base data",
+    "build": "webpack"
+  },
+  "author": "Immoreev Alexey",
+  "license": "ISC",
+  "dependencies": {
+    "@emotion/core": "^10.0.9",
+    "@emotion/styled": "^10.0.9",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "html-webpack-plugin": "^3.2.0",
+    "live-server": "^1.2.1",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.2.1"
+  }
+}
